@@ -1,1 +1,3 @@
 <app-page-title title="Content" subtitle="Pretend this is some amazing content"></app-page-title>
+
+ <app-box *ngFor="let content of boxContent" [heading]="content.heading" [body]="content.body" [link]="content.link"></app-box>
