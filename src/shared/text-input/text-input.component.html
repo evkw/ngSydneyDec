@@ -1,0 +1,4 @@
+<div class="form-group">
+  <label [attr.for]="label" class="control-label" [textRequired]="isRequired()">{{label}}</label>
+  <input [(ngModel)]="value" type="text" class="form-control" [disabled]="disabled" [id]="label" placeholder="{{placeholder}}">
+</div>
