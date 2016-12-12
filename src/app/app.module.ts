@@ -11,6 +11,7 @@ import { ContentComponent } from './content/content.component';
 import { appRoutingModule } from './app.routing';
 
 import { SharedModule } from './shared/shared.module';
+import { FooterModule } from './footer/footer.module';
 
 @NgModule({
   declarations: [
@@ -20,14 +21,15 @@ import { SharedModule } from './shared/shared.module';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    ContentComponent
+    ContentComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     appRoutingModule,
-    SharedModule
+    SharedModule,
+    FooterModule
   ],
   bootstrap: [AppComponent]
 })

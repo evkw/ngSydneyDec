@@ -26,7 +26,6 @@ import { PageTitleComponent } from './page-title/page-title.component';
     TextInputComponent,
     SubmitButtonComponent,
     PageTitleComponent
-  ],
-  providers: [],
+  ]
 })
 export class SharedModule { }
