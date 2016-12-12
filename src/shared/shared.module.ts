@@ -5,6 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { textRequiredDirective } from './directives/required.directive';
 import { TextInputComponent } from './text-input/text-input.component';
 import { SubmitButtonComponent } from './submit-button/submit-button.component';
+import { PageTitleComponent } from './page-title/page-title.component';
 
 @NgModule({
   imports: [
@@ -17,12 +18,14 @@ import { SubmitButtonComponent } from './submit-button/submit-button.component';
     ReactiveFormsModule,
     FormsModule,
     TextInputComponent,
-    SubmitButtonComponent
+    SubmitButtonComponent,
+    PageTitleComponent
   ],
   declarations: [
     textRequiredDirective,
     TextInputComponent,
-    SubmitButtonComponent
+    SubmitButtonComponent,
+    PageTitleComponent
   ],
   providers: [],
 })
