@@ -6,6 +6,7 @@ import { textRequiredDirective } from './directives/required.directive';
 import { TextInputComponent } from './text-input/text-input.component';
 import { SubmitButtonComponent } from './submit-button/submit-button.component';
 import { PageTitleComponent } from './page-title/page-title.component';
+import { BoxComponent } from './content-box/content-box.component';
 
 @NgModule({
   imports: [
@@ -19,13 +20,15 @@ import { PageTitleComponent } from './page-title/page-title.component';
     FormsModule,
     TextInputComponent,
     SubmitButtonComponent,
-    PageTitleComponent
+    PageTitleComponent,
+    BoxComponent
   ],
   declarations: [
     textRequiredDirective,
     TextInputComponent,
     SubmitButtonComponent,
-    PageTitleComponent
+    PageTitleComponent,
+    BoxComponent
   ]
 })
 export class SharedModule { }

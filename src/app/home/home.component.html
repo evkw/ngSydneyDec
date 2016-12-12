@@ -1,1 +1,6 @@
 <app-page-title title="Home" subtitle="is where the heart is"></app-page-title>
+
+<div class="row services">
+  <h2 class="text-center">Services Blocks</h2>
+    <app-box *ngFor="let content of boxContent" [heading]="content.heading" [body]="content.body" [link]="content.link"></app-box>
+</div>
