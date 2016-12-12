@@ -1,4 +1,5 @@
 import { NG_VALUE_ACCESSOR, NG_VALIDATORS } from '@angular/forms';
+import { OpaqueToken } from '@angular/core';
 
 export function makeValueProvider(type: any) {
     const ValueProvider = [

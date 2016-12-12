@@ -3,10 +3,9 @@ import { AbstractValueAccessor } from '../util/abstract-value-accessor';
 import { makeValueProvider } from '../util/make-value-provider.function';
 
 @Component({
-  selector: 'boris-text-input',
-  templateUrl: 'boris-text-input.component.html',
-  providers: [makeValueProvider(TextInputComponent)],
-  styleUrls: ['../boris-form.css']
+  selector: 'text-input',
+  templateUrl: './text-input.component.html',
+  providers: [makeValueProvider(TextInputComponent)]
 })
 export class TextInputComponent extends AbstractValueAccessor {
   @Input('label') label: string;

@@ -29,4 +29,4 @@ import { PageTitleComponent } from './page-title/page-title.component';
   ],
   providers: [],
 })
-export class NameModule { }
+export class SharedModule { }
