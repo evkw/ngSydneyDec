@@ -10,7 +10,7 @@ export class textRequiredDirective implements AfterViewInit {
   ngAfterViewInit() {
     if (this.textRequired) {
        let requiredSpan = this.renderer.createElement(this.el.nativeElement, 'span');
-       this.renderer.setText(requiredSpan, '*');
+       this.renderer.createText(requiredSpan, "*");
        this.renderer.setElementStyle(requiredSpan, 'color', 'red');
     }
   }

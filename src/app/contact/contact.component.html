@@ -1,1 +1,10 @@
 <app-page-title title="Contact" subtitle="Reach out and touch somebody.. not me though, germs are gross"></app-page-title>
+
+<app-content-container title="Contact Form">
+  <form [formGroup]="contactForm">
+    <text-input formControlName="name" label="Name"></text-input>
+    <text-input formControlName="email" label="Email"></text-input>
+    <app-textarea formControlName="message" label="Message"></app-textarea>
+    <submit-button btnText="Send a thing"></submit-button>
+  </form>
+</app-content-container>
