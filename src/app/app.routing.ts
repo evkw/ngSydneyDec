@@ -23,10 +23,6 @@ export const appRoutes: Routes = [
   {
     path: 'content',
     component: ContentComponent
-  },
-  {
-    path: 'about',
-    component: AboutComponent
   }
 ];
 
